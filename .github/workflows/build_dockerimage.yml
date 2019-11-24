@@ -20,8 +20,8 @@ jobs:
     - name: Docker login
       run: docker login -u maxgrabert --password ${{ secrets.GITHUB_TOKEN }} docker.pkg.github.com
     - name: tag Docker image
-      run: docker tag reverseproxy docker.pkg.github.com/maxgrabert/reverse_proxy/reverseproxy 
+      run: docker tag reverseproxy docker.pkg.github.com/maxgrabert/reverseproxy/reverseproxy 
     - name: push Docker image
-      run: docker push docker.pkg.github.com/maxgrabert/reverse_proxy/reverseproxy:latest
+      run: docker push docker.pkg.github.com/maxgrabert/reverseproxy/reverseproxy:latest
       
 
