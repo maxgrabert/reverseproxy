@@ -16,10 +16,10 @@ jobs:
     - name: Build with Maven
       run: mvn -B package --file pom.xml
     - name: Build Docker image
-      run: docker build . --file Dockerfile --tag reverse-proxy:latest
+      run: docker build . --file Dockerfile --tag rproxy:latest
     - name: Docker login
       run: docker login -u maxgrabert --password ${{ secrets.GITHUB_TOKEN }} docker.pkg.github.com
     - name: tag Docker image
-      run: docker tag reverse-proxy docker.pkg.github.com/maxgrabert/reverse-proxy
+      run: docker tag rproxy docker.pkg.github.com/maxgrabert/reverseproxy/rproxy
     - name: push Docker image
-      run: docker push docker.pkg.github.com/maxgrabert/reverse-proxy:latest
+      run: docker push docker.pkg.github.com/maxgrabert/reverseproxy/rproxy:latest
