@@ -2,7 +2,7 @@ apiVersion: v2
 name: reverseproxy
 description: A Helm chart for Kubernetes
 
-home: https://github.com/maxgrabert/reverse_proxy
+home: https://github.com/maxgrabert/reverseproxy
 type: application
 
 version: 0.0.1
@@ -10,7 +10,7 @@ appVersion: latest
 
 image:
   registry: docker.pkg.github.com
-  repository: maxgrabert/reverse_proxy/reverseproxy
+  repository: maxgrabert/reverseproxy/reverseproxy
   tag: latest
 
 #spec:
