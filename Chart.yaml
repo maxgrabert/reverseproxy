@@ -1,6 +1,6 @@
 apiVersion: v2
 name: reverseproxy
-description: A Helm chart for Kubernetes
+description: A Helm chart for a simple HTTP reverse proxy
 
 home: https://github.com/maxgrabert/reverseproxy
 type: application
@@ -13,10 +13,3 @@ image:
   repository: maxgrabert/reverseproxy/rproxy
   tag: latest
 
-#spec:
-#  type: {{ .Values.service.type }}
-#  ports:
-#  - port: {{ .Values.service.externalPort }}
-#    targetPort: {{ .Values.service.internalPort }}
-#    protocol: TCP
-#    name: {{ .Values.service.name }}
