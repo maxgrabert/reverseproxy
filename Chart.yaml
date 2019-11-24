@@ -10,7 +10,7 @@ appVersion: latest
 
 image:
   registry: docker.pkg.github.com
-  repository: maxgrabert/reverseproxy/reverseproxy
+  repository: maxgrabert/rproxy
   tag: latest
 
 #spec:
