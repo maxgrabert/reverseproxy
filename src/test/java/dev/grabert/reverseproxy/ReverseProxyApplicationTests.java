@@ -1,4 +1,4 @@
-package dev.grabert.reverse_proxy;
+package dev.grabert.reverseproxy;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
