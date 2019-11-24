@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
   registry: docker.pkg.github.com
-  repository: docker.pkg.github.com/maxgrabert/reverseproxy/reverseproxy
+  repository: docker.pkg.github.com/maxgrabert/reverse-proxy
   tag: latest
   pullPolicy: IfNotPresent
 
