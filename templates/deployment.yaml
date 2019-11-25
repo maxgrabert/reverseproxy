@@ -33,7 +33,7 @@ spec:
               protocol: TCP
           livenessProbe:
             httpGet:
-              path: /actuator/health
+              path: /actuator/health/
               port: http
             initialDelaySeconds: 60
             periodSeconds: 10

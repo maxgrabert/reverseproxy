@@ -10,14 +10,14 @@ import java.math.BigInteger;
  * @author Markus Grabert <markus@grabert.dev>
  * @see ProxyProperties
  */
-public class Host {
-
+public class Listen {
+	
 	/** The address. */
 	private String address;
 	
 	/** The port. */
 	private BigInteger port;
-	
+
 	/**
 	 * Gets the address.
 	 *
@@ -61,7 +61,7 @@ public class Host {
 	 */
 	@Override
 	public String toString() {
-		return "Host [address=" + address + ", port=" + port + "]";
+		return "Listen [address=" + address + ", port=" + port + "]";
 	}
-	
+
 }

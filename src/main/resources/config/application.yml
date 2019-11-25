@@ -1,0 +1,9 @@
+management:
+  metrics:
+    export:
+      prometheus:
+        enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: loggel, info, health, prometheus, metrics, logfile, loggers, httptrace
